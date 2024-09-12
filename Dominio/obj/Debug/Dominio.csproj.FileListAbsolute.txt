@@ -1,0 +1,6 @@
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\bin\Debug\Dominio.dll
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.dll
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.pdb

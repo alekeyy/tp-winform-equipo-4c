@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Dominio;
+using Negocio;
+
+namespace GestionCatalogo
+{
+    public partial class Form1 : Form
+    {
+        // lista local
+        private List<Articulos> listaArticulos;
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        //Apenas carga la aplicacion, se ejecutara esto
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            listaArticulos = negocio.listar();
+            dgvCatalogo.DataSource = listaArticulos;
+            // cargar la imagen del primer articulo
+            //cargarImagen()
+
+            //oculto ids de marca y categoria
+            dgvCatalogo.Columns["IdMarca"].Visible = false;
+            dgvCatalogo.Columns["IdCategoria"].Visible = false;
+        }
+
+        private void dgvCatalogo_SelectionChanged(object sender, EventArgs e)
+        {
+            Articulos aux = (Articulos)dgvCatalogo.CurrentRow.DataBoundItem;
+            /*
+                crear objeto imagen y si coincide con la id del articulo asignar esa url
+            */
+            // ver para relacionar iamgen y articulo
+            cargarImagen(imagen.url);
+        }
+
+        private void cargarImagen(string url)
+        {
+            try {
+                picArticulos.Load(url);
+            } catch (Exception ex)
+            {
+                picArticulos.Load("https://www.drupal.org/files/project-images/broken-image.jpg");
+            }
+        }
+    }
+}

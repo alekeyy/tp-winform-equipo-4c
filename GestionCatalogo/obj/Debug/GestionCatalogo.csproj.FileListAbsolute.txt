@@ -1,0 +1,12 @@
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\bin\Debug\GestionCatalogo.exe.config
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\bin\Debug\GestionCatalogo.exe
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\bin\Debug\GestionCatalogo.pdb
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.csproj.AssemblyReference.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.Form1.resources
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.Properties.Resources.resources
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.csproj.GenerateResource.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.exe
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.pdb
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\GestionCatalogo\obj\Debug\GestionCatalogo.formAlta.resources

@@ -1,0 +1,2 @@
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Negocio\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Negocio\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
