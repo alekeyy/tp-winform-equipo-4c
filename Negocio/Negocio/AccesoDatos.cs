@@ -26,14 +26,20 @@ namespace Negocio
         }
 
         // declaramos la consulta a realizar
-        public void setQuery(string query)
+        public void setConsulta(string consulta)
         {
             comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = query;
+            comando.CommandText = consulta;
+        }
+
+        // para pasar parametros
+        public void setearParametro(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
         }
 
         //ejecutar el lector
-        public void executeReader()
+        public void ejecutarLectura()
         {
             comando.Connection = conexion;
             try
@@ -48,7 +54,7 @@ namespace Negocio
         }
 
         //despues de intentar una consulta, cerramos la conexion en el metodo donde este la accion
-        public void closeConnection()
+        public void cerrarConexion()
         {
             if(lector != null)
             {

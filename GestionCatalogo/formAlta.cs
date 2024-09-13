@@ -36,6 +36,7 @@ namespace GestionCatalogo
                 art.Descripcion = txtNombre.Text;
                 art.Categoria = (Categorias)boxCategoria.SelectedItem;
                 art.Marca = (Marcas)boxMarca.SelectedItem;
+                //imagen?
               
                 negocio.Agregar(art);
                 MessageBox.Show("Articulo agregado correctamente");
@@ -50,14 +51,16 @@ namespace GestionCatalogo
         {
             MarcasNegocio marca = new MarcasNegocio();
             CategoriasNegocio categoria = new CategoriasNegocio();
-
+            ImagenesNegocio imagen = new ImagenesNegocio();
             try
             {
                 boxCategoria.DataSource = categoria.listar();
                 boxMarca.DataSource = marca.listar();
+                // pendiente agregar imagen
+
             } catch (Exception ex)
             {
-                throw ex;
+                MessageBox.Show(ex.ToString());
             }
         }
     }

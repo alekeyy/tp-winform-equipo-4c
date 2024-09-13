@@ -4,3 +4,9 @@ C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.cs
 C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.dll
 C:\Users\Lautaro Vagnoni\COdecademy\GestionCatalogo\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\bin\Debug\Dominio.dll
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.dll
+C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.pdb

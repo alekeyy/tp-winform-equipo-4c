@@ -17,8 +17,8 @@ namespace Negocio
             try
             {
                 //preparamos la consulta y ejecutamos el lector, mientras este lea se ejecutara lo del while
-                datos.setQuery("SELECT * FROM Imagenes");
-                datos.executeReader();
+                datos.setConsulta("SELECT * FROM Imagenes");
+                datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {

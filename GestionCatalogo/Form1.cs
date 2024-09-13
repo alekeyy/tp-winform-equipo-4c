@@ -27,22 +27,19 @@ namespace GestionCatalogo
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.listar();
             dgvCatalogo.DataSource = listaArticulos;
-            // cargar la imagen del primer articulo
-            //cargarImagen()
+            //cargar imagen
+            cargarImagen(listaArticulos[0].Imagen.UrlImagen);
 
             //oculto ids de marca y categoria
             dgvCatalogo.Columns["IdMarca"].Visible = false;
             dgvCatalogo.Columns["IdCategoria"].Visible = false;
+            dgvCatalogo.Columns["UrlImagen"].Visible = false;
         }
 
         private void dgvCatalogo_SelectionChanged(object sender, EventArgs e)
         {
             Articulos aux = (Articulos)dgvCatalogo.CurrentRow.DataBoundItem;
-            /*
-                crear objeto imagen y si coincide con la id del articulo asignar esa url
-            */
-            // ver para relacionar iamgen y articulo
-            cargarImagen(imagen.url);
+            cargarImagen(aux.Imagen.ToString());
         }
 
         private void cargarImagen(string url)
@@ -51,8 +48,14 @@ namespace GestionCatalogo
                 picArticulos.Load(url);
             } catch (Exception ex)
             {
-                picArticulos.Load("https://www.drupal.org/files/project-images/broken-image.jpg");
+               picArticulos.Load("https://www.drupal.org/files/project-images/broken-image.jpg");
             }
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            formAlta alta = new formAlta();
+            alta.ShowDialog();
         }
     }
 }

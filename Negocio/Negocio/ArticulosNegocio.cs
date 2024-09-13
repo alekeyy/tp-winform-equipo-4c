@@ -17,8 +17,8 @@ namespace Negocio
             try
             {
                 //preparamos la consulta y ejecutamos el lector, mientras este lea se ejecutara lo del while
-                datos.setQuery("SELECT * FROM ARTICULOS");
-                datos.executeReader();
+                datos.setConsulta("SELECT Id, Codigo, Nombre, Descripcion,  C.Descripcion Categoria, I.UrlImagen UrlImagen, M.Descripcion Marca FROM ARTICULOS A, CATEGORIAS C, IMAGENES I, MARCAS M WHERE C.Id = A.IdCategoria AND I.IdArticulo = A.Id AND M.Id = A.IdMarca");
+                datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
@@ -42,6 +42,12 @@ namespace Negocio
                     aux.Categoria = new Categorias();
                     aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
 
+                    aux.Imagen = new Imagenes();
+                    if (!(datos.Lector["UrlImagen"] is DBNull))
+                    {
+                        aux.Imagen.UrlImagen = (string)datos.Lector["UrlImagen"];
+                    }
+
                     lista.Add(aux);
                 }
 
@@ -57,11 +63,16 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setQuery("");
-
+                datos.setConsulta("INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, IdMarca, IdCategoria) VALUES(" + nuevo.Codigo + ", " + nuevo.Nombre + ", " + nuevo.Descripcion + ", @IdMarca, @IdCategoria)");
+                datos.setearParametro("@IdMarca", nuevo.IdMarca);
+                datos.setearParametro("@IdCategoria", nuevo.IdCategoria);
+                datos.ejecutarLectura();
             } catch (Exception ex)
             {
                 throw ex;
+            } finally
+            {
+                datos.cerrarConexion();
             }
         }
 

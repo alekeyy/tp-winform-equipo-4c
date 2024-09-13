@@ -16,5 +16,6 @@ namespace Dominio
         public int IdCategoria { get; set; }
         public Marcas Marca { get; set; }
         public Categorias Categoria { get; set; }
+        public Imagenes Imagen { get; set; }
     }
 }
