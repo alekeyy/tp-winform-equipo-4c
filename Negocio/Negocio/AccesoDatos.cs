@@ -21,7 +21,7 @@ namespace Negocio
         // constructor que prepare la conexion apenas es creado
         public AccesoDatos()
         {
-            conexion = new SqlConnection("acaPonganSuDB");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
             comando = new SqlCommand();
         }
 

@@ -31,7 +31,7 @@ namespace GestionCatalogo
 
             try
             {
-                art.Codigo = int.Parse(txtCodigo.Text);
+                art.Codigo = txtCodigo.Text;
                 art.Nombre = txtNombre.Text;
                 art.Descripcion = txtNombre.Text;
                 art.Categoria = (Categorias)boxCategoria.SelectedItem;

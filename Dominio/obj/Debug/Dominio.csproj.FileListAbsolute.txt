@@ -10,3 +10,9 @@ C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.Asse
 C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.dll
 C:\Users\Lautaro Vagnoni\cac\Prog3-Forms4C\Dominio\obj\Debug\Dominio.pdb
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\bin\Debug\Dominio.dll
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\bin\Debug\Dominio.pdb
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\obj\Debug\Dominio.dll
+C:\Users\poky1975\Documents\GitHub\Prog3-Forms4C\Dominio\obj\Debug\Dominio.pdb

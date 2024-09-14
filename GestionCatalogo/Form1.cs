@@ -33,7 +33,7 @@ namespace GestionCatalogo
             //oculto ids de marca y categoria
             dgvCatalogo.Columns["IdMarca"].Visible = false;
             dgvCatalogo.Columns["IdCategoria"].Visible = false;
-            dgvCatalogo.Columns["UrlImagen"].Visible = false;
+            dgvCatalogo.Columns["Imagen"].Visible = false;
         }
 
         private void dgvCatalogo_SelectionChanged(object sender, EventArgs e)

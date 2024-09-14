@@ -17,7 +17,7 @@ namespace Negocio
             try
             {
                 //preparamos la consulta y ejecutamos el lector, mientras este lea se ejecutara lo del while
-                datos.setConsulta("SELECT Id, Codigo, Nombre, Descripcion,  C.Descripcion Categoria, I.UrlImagen UrlImagen, M.Descripcion Marca FROM ARTICULOS A, CATEGORIAS C, IMAGENES I, MARCAS M WHERE C.Id = A.IdCategoria AND I.IdArticulo = A.Id AND M.Id = A.IdMarca");
+                datos.setConsulta("SELECT a.Id, Codigo, Nombre, IdMarca, IdCategoria, m.Descripcion as marca, a.Descripcion,  C.Descripcion Categoria, I.ImagenUrl UrlImagen, M.Descripcion Marca  FROM ARTICULOS A, CATEGORIAS C, IMAGENES I, MARCAS M  WHERE C.Id = A.IdCategoria AND I.IdArticulo = A.Id AND M.Id = A.IdMarca\r\n");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -31,7 +31,7 @@ namespace Negocio
 
                     // ej-
                     aux.Id = (int)datos.Lector["Id"];
-                    aux.Codigo = (int)datos.Lector["Codigo"];
+                    aux.Codigo = (string)datos.Lector["Codigo"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.IdMarca = (int)datos.Lector["IdMarca"];

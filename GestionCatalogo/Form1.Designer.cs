@@ -43,16 +43,17 @@
             // 
             this.dgvCatalogo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCatalogo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvCatalogo.Location = new System.Drawing.Point(12, 126);
+            this.dgvCatalogo.Location = new System.Drawing.Point(12, 69);
             this.dgvCatalogo.MultiSelect = false;
             this.dgvCatalogo.Name = "dgvCatalogo";
-            this.dgvCatalogo.Size = new System.Drawing.Size(517, 263);
+            this.dgvCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvCatalogo.Size = new System.Drawing.Size(541, 263);
             this.dgvCatalogo.TabIndex = 0;
             this.dgvCatalogo.SelectionChanged += new System.EventHandler(this.dgvCatalogo_SelectionChanged);
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(12, 395);
+            this.btnAgregar.Location = new System.Drawing.Point(12, 338);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 1;
@@ -62,7 +63,7 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(93, 395);
+            this.btnModificar.Location = new System.Drawing.Point(93, 338);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(174, 395);
+            this.btnEliminar.Location = new System.Drawing.Point(174, 338);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 3;
@@ -80,7 +81,7 @@
             // 
             // picArticulos
             // 
-            this.picArticulos.Location = new System.Drawing.Point(559, 126);
+            this.picArticulos.Location = new System.Drawing.Point(559, 69);
             this.picArticulos.Name = "picArticulos";
             this.picArticulos.Size = new System.Drawing.Size(208, 263);
             this.picArticulos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -89,7 +90,7 @@
             // 
             // buscador
             // 
-            this.buscador.Location = new System.Drawing.Point(12, 100);
+            this.buscador.Location = new System.Drawing.Point(16, 32);
             this.buscador.Name = "buscador";
             this.buscador.Size = new System.Drawing.Size(517, 20);
             this.buscador.TabIndex = 6;
@@ -97,7 +98,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 81);
+            this.label1.Location = new System.Drawing.Point(13, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 7;
@@ -107,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 380);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buscador);
             this.Controls.Add(this.picArticulos);
