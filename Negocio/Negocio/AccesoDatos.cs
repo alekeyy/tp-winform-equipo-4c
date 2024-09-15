@@ -33,7 +33,15 @@ namespace Negocio
         }
 
         // para pasar parametros
-        public void setearParametro(string nombre, object valor)
+        public void setearParametro(string nombre, string valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
+        }
+        public void setearParametro(string nombre, int valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
+        }
+        public void setearParametro(string nombre, float valor)
         {
             comando.Parameters.AddWithValue(nombre, valor);
         }
@@ -52,6 +60,47 @@ namespace Negocio
                 throw ex;
             }
         }
+
+        public void ejecutarAccion()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+
+        public object ejecutarEscalar()
+        {
+            comando.Connection = conexion;
+            object resultado;
+            try
+            {
+                conexion.Open();
+                // metodo que devuelve solo la primer columna de la tabla en este caso, la columna id
+                resultado = comando.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                throw ex; 
+            }
+            finally
+            {
+                conexion.Close(); 
+            }
+            return resultado; 
+        }
+
 
         //despues de intentar una consulta, cerramos la conexion en el metodo donde este la accion
         public void cerrarConexion()

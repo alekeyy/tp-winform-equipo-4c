@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|c:\\users\\poky1975\\documents\\github\\prog3-forms4c\\negocio\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\negocio\\negocio\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|c:\\users\\poky1975\\documents\\github\\prog3-forms4c\\negocio\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\negocio\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DDA2282-9906-441F-BB2D-6B68E859C352}|Dominio\\Dominio.csproj|c:\\users\\poky1975\\documents\\github\\prog3-forms4c\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DDA2282-9906-441F-BB2D-6B68E859C352}|Dominio\\Dominio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DDA2282-9906-441F-BB2D-6B68E859C352}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\negocio\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDA2282-9906-441F-BB2D-6B68E859C352}|Dominio\\Dominio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDA2282-9906-441F-BB2D-6B68E859C352}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D019D5A-C574-4D9E-AAA4-CBCA02CFC852}|GestionCatalogo\\GestionCatalogo.csproj|solutionrelative:gestioncatalogo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\negocio\\negocio\\imagenesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08BA84-5930-4D28-8900-EB49EBA097B2}|Negocio\\Negocio\\Negocio.csproj|solutionrelative:negocio\\negocio\\imagenesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,56 +46,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "formAlta.cs",
               "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\formAlta.cs",
               "RelativeDocumentMoniker": "GestionCatalogo\\formAlta.cs",
               "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\formAlta.cs",
               "RelativeToolTip": "GestionCatalogo\\formAlta.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T22:29:56.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\Form1.cs",
-              "RelativeDocumentMoniker": "GestionCatalogo\\Form1.cs",
-              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\Form1.cs",
-              "RelativeToolTip": "GestionCatalogo\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T22:29:56.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriasNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\CategoriasNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\Negocio\\CategoriasNegocio.cs",
-              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\CategoriasNegocio.cs",
-              "RelativeToolTip": "Negocio\\Negocio\\CategoriasNegocio.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T22:29:56.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\Negocio\\AccesoDatos.cs",
               "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\AccesoDatos.cs",
               "RelativeToolTip": "Negocio\\Negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T22:29:56.679Z",
               "EditorCaption": ""
@@ -99,6 +77,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "Negocio\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAGgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T22:29:56.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Articulos.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulos.cs",
+              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Articulos.cs",
+              "RelativeToolTip": "Dominio\\Articulos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:23:46.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Imagenes.cs",
+              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Imagenes.cs",
+              "RelativeDocumentMoniker": "Dominio\\Imagenes.cs",
+              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Imagenes.cs",
+              "RelativeToolTip": "Dominio\\Imagenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:20:50.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "formAlta.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\formAlta.cs",
               "RelativeDocumentMoniker": "GestionCatalogo\\formAlta.cs",
@@ -111,6 +128,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\Form1.cs",
+              "RelativeDocumentMoniker": "GestionCatalogo\\Form1.cs",
+              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\Form1.cs",
+              "RelativeToolTip": "GestionCatalogo\\Form1.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T22:29:56.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\GestionCatalogo\\Form1.cs",
               "RelativeDocumentMoniker": "GestionCatalogo\\Form1.cs",
@@ -122,29 +152,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ArticulosNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\Negocio\\ArticulosNegocio.cs",
-              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ArticulosNegocio.cs",
-              "RelativeToolTip": "Negocio\\Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ImagenesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ImagenesNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\Negocio\\ImagenesNegocio.cs",
+              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Negocio\\Negocio\\ImagenesNegocio.cs",
+              "RelativeToolTip": "Negocio\\Negocio\\ImagenesNegocio.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T22:29:56.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Articulos.cs",
-              "DocumentMoniker": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Articulos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulos.cs",
-              "ToolTip": "C:\\Users\\poky1975\\Documents\\GitHub\\Prog3-Forms4C\\Dominio\\Articulos.cs",
-              "RelativeToolTip": "Dominio\\Articulos.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T23:10:17.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T17:35:34.214Z"
             }
           ]
         }

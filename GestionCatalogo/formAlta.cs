@@ -36,8 +36,15 @@ namespace GestionCatalogo
                 art.Descripcion = txtNombre.Text;
                 art.Categoria = (Categorias)boxCategoria.SelectedItem;
                 art.Marca = (Marcas)boxMarca.SelectedItem;
+                art.Precio = float.Parse(txtPrecio.Text);
+
                 //imagen?
-              
+                // se agrega el comando para aniadir la url de la imagen
+                // el id de articulo se obtiene cuando se hace el 
+                art.Imagen = new Imagenes();
+                art.Imagen.UrlImagen = txtUrlImagen.Text;
+
+
                 negocio.Agregar(art);
                 MessageBox.Show("Articulo agregado correctamente");
                 Close();

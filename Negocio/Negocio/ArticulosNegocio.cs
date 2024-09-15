@@ -63,11 +63,63 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setConsulta("INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, IdMarca, IdCategoria) VALUES(" + nuevo.Codigo + ", " + nuevo.Nombre + ", " + nuevo.Descripcion + ", @IdMarca, @IdCategoria)");
+                datos.setConsulta("INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@Codigo, @Nombre, @Descripcion, @IdMarca, @IdCategoria, @Precio)");
+                datos.setearParametro("@Codigo", nuevo.Codigo);
+                datos.setearParametro("@Nombre", nuevo.Nombre);
+                datos.setearParametro("@Descripcion", nuevo.Descripcion);
                 datos.setearParametro("@IdMarca", nuevo.IdMarca);
                 datos.setearParametro("@IdCategoria", nuevo.IdCategoria);
-                datos.ejecutarLectura();
-            } catch (Exception ex)
+                datos.setearParametro("@Precio", nuevo.Precio);
+
+                datos.ejecutarAccion();
+
+                //------------------------------------------------------------------------------
+                /*
+                    estas dos funciones, hacen basicamente:
+                    - SELECT SCOPE_IDENTITY(): consulta que busca el ultimo id ingresado (siempre y cuando el mismo sea del tipo identity
+                    - la funcion escalar(): ejecuta un metodo de "using System.Data.SqlClient;"
+                      la cual devuelve un unico valor (en este caso la consulta cargada a ejecutar es la que busca el id).
+                      originalmente probe usando el ejecutar accion, 
+                      pero todas las veces me guardaba IdArticulo -1 en la tabla imagenes.
+
+                //------------------------------------------------------------------------------
+                datos.setConsulta("SELECT SCOPE_IDENTITY()");
+                Articulos idArticulo = (Articulos)datos.ejecutarEscalar(); 
+
+                datos.setConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@IdArticulo, @URL)");
+                datos.setearParametro("@IdArticulo", idArticulo);
+                datos.setearParametro("@URL", nuevo.Imagen.UrlImagen);
+                datos.ejecutarAccion();
+                */
+
+                // puede usarse este de arriba o el de abajo, no los dos
+                // considero mas factible seguir avanzando con el foreach
+
+                //------------------------------------------------------------------------------
+                
+                
+                /*
+                -- prueba fallida ya que el id del nuevo producto
+                -- no puede leerse realizando comparaciones en base al nombre por algun motivo,
+                -- nunca entro al if.
+                -- guardaba exitosamente el producto pero no las imagenes.
+                */
+                //------------------------------------------------------------------------------
+                List<Articulos> lista = listar();
+                foreach (Articulos art in lista)
+                {
+                    if(art.Nombre == nuevo.Nombre)
+                    {
+                        datos.setConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@IdArticulo, @URL)");
+                        datos.setearParametro("@IdArticulo", art.Id);
+                        datos.setearParametro("@URL", nuevo.Imagen.UrlImagen);
+                        datos.ejecutarAccion();
+                        break;
+                    }
+                }
+
+            }
+            catch (Exception ex)
             {
                 throw ex;
             } finally
