@@ -57,5 +57,38 @@ namespace GestionCatalogo
             formAlta alta = new formAlta();
             alta.ShowDialog();
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Articulos filaSeleccionada = (Articulos)dgvCatalogo.CurrentRow.DataBoundItem;
+
+            formAlta modif = new formAlta(filaSeleccionada);
+
+            modif.ShowDialog();
+
+            //aca lo cargamos
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            Articulos articulo;
+
+            try
+            {
+                DialogResult respuesta =  MessageBox.Show("Posta vas a borrarlo?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if(respuesta == DialogResult.Yes)
+                {
+                    Articulos filaSeleccionada = (Articulos)dgvCatalogo.CurrentRow.DataBoundItem;
+                    negocio.Eliminar(filaSeleccionada.Id);
+
+                    // actualziar tabla
+                    // cargar() 
+                }
+            } catch (Exception ex)
+            {
+                throw ex;
+            }
+
     }
 }

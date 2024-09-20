@@ -14,9 +14,16 @@ namespace GestionCatalogo
 {
     public partial class formAlta : Form
     {
+        private Articulos articulo = null;
         public formAlta()
         {
             InitializeComponent();
+        }
+
+        public formAlta(Articulos aux)
+        {
+            InitializeComponent();
+            this.articulo = aux;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -26,19 +33,34 @@ namespace GestionCatalogo
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Articulos art = new Articulos();
             ArticulosNegocio negocio = new ArticulosNegocio();
+
+            //antes de pisar el articulo, lo verificamos
+            if(articulo == null)
+            {
+                articulo = new Articulos();
+            }
 
             try
             {
-                art.Codigo = txtCodigo.Text;
-                art.Nombre = txtNombre.Text;
-                art.Descripcion = txtNombre.Text;
-                art.Categoria = (Categorias)boxCategoria.SelectedItem;
-                art.Marca = (Marcas)boxMarca.SelectedItem;
+                articulo.Id = 
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Nombre = txtNombre.Text;
+                articulo.Descripcion = txtNombre.Text;
+                articulo.Categoria = (Categorias)boxCategoria.SelectedItem;
+                articulo.Marca = (Marcas)boxMarca.SelectedItem;
                 //imagen?
               
-                negocio.Agregar(art);
+                if(articulo.Id != 0)
+                {
+                    negocio.Modificar(articulo);
+                    MessageBox.Show("Articulo modificado correctamente");
+                } else
+                {
+                    negocio.Agregar(articulo);
+                    MessageBox.Show("Articulo agregado correctamente");
+                }
+                negocio.Agregar(articulo);
                 MessageBox.Show("Articulo agregado correctamente");
                 Close();
             }
@@ -57,6 +79,16 @@ namespace GestionCatalogo
                 boxCategoria.DataSource = categoria.listar();
                 boxMarca.DataSource = marca.listar();
                 // pendiente agregar imagen
+
+                if(articulo != null)
+                {
+                    txtCodigo.Text = articulo.Codigo;
+                    txtNombre.Text = articulo.Nombre;
+                    txtDescripcion.Text = articulo.Descripcion;
+                    boxCategoria.SelectedValue = articulo.Categoria;
+                    boxMarca.SelectedValue = articulo.Marca;
+                    //cargar imagen
+                }
 
             } catch (Exception ex)
             {

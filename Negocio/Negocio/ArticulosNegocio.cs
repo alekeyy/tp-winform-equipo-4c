@@ -78,7 +78,48 @@ namespace Negocio
 
         public void Modificar(Articulos modif)
         {
+            AccesoDatos datos = new AccesoDatos();
+            //aca va el update query
+            try
+            {
+                //datos.setConsulta("INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, IdMarca, IdCategoria) VALUES(" + nuevo.Codigo + ", " + nuevo.Nombre + ", " + nuevo.Descripcion + ", @IdMarca, @IdCategoria)");
+                
+                datos.setearParametro("@Codigo", modif.Codigo);
+                datos.setearParametro("@Nombre", modif.Nombre);
+                datos.setearParametro("@Descripcion", modif.Descripcion);
+                datos.setearParametro("@IdMarca", modif.IdMarca);
+                datos.setearParametro("@IdCategoria", modif.IdCategoria);
 
+                datos.ejecutarLectura();
+            } catch (Exception ex)
+            {
+                throw ex;
+            } finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void Eliminar(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            //aca va el delete query
+            try
+            {
+                //datos.setConsulta("INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, IdMarca, IdCategoria) VALUES(" + nuevo.Codigo + ", " + nuevo.Nombre + ", " + nuevo.Descripcion + ", @IdMarca, @IdCategoria)");
+
+                datos.setearParametro("@Id", id);
+
+                datos.ejecutarLectura();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
     }
 }
